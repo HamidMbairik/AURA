@@ -1,22 +1,29 @@
-# AURA — Wellness & Physiotherapy
+# AURA
 
-**Brand personality:** Calm, trustworthy, natural, professional.
+A website for a physiotherapy and wellness practice. Built as a portfolio project.
 
-## Design System
+## Stack
 
-| Token | HEX | RGB |
-|---|---|---|
-| Primary | `#315C55` | `rgb(49, 92, 85)` |
-| Secondary | `#6F9089` | `rgb(111, 144, 137)` |
-| Background | `#F5F7F4` | `rgb(245, 247, 244)` |
-| Surface | `#E7EEE9` | `rgb(231, 238, 233)` |
-| Text | `#24322F` | `rgb(36, 50, 47)` |
-| Muted Text | `#71807B` | `rgb(113, 128, 123)` |
-| Accent | `#C89B6D` | `rgb(200, 155, 109)` |
-| Accent Light | `#E7D4BD` | `rgb(231, 212, 189)` |
+- React
+- Vite
+- Tailwind CSS v4
 
-## Usage Rules
+## Running locally
 
-- Mostly light backgrounds with deep green for headings and CTAs.
-- Warm beige is an accent, not the dominant color.
-- **60%** Background/neutral · **30%** Primary/Secondary · **10%** Accent.
+```sh
+npm install
+npm run dev
+```
+
+Build and preview:
+
+```sh
+npm run build
+npm run preview
+```
+
+## Notes
+
+- The appointment form is demo-only; it swaps to a confirmation message after submitting. No backend.
+- Photos in `public/images/` are placeholders from Unsplash. Swap them for real clinic photos before going live.
+- All copy lives in `src/data/content.js`.
