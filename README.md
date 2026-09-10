@@ -57,3 +57,7 @@ Defined once in `@theme` and referenced everywhere. No stray hex values.
 - Photos are local placeholders from Unsplash. Swap them for real clinic photos — they're referenced in `src/data/content.js`.
 - The appointment form is front-end only. It swaps to a confirmation state; there's no backend behind it.
 - `scroll-mt-16` on each section compensates for the fixed header. If the header height changes, those need a revisit.
+
+---
+
+**Built from scratch by [Hamid Mbairik](https://github.com/HamidMbairik) · [CorgaDev](https://corgadev.vercel.app) — custom websites, no templates.**
